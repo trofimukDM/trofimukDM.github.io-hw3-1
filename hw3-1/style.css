@@ -1,0 +1,193 @@
+1* {
+	border: 1px solid red;
+}
+body {
+	font-family: Arial sans-serif;
+}
+
+.header {
+	width: 1280px;
+	height: 85px;
+	background: #22a2ec;
+	margin: 0 auto;
+}
+.container {
+	width: 1190px;
+	margin: 0 auto;
+	
+}
+.logo, .main-menu {
+	float: left;
+}
+.phone {
+	float: right;
+	padding-top: 35px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.logo {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 35px;
+	margin-right: 120px;
+}
+
+.menu-item {
+	float: left;
+	padding-top: 35px;
+}
+ul li {
+	margin-right: 25px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 15px; 	
+}
+a {
+	color: #fff;
+}
+
+div h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #272c2f;
+	margin-bottom: 37px;
+	margin-top: 55px;
+}
+
+
+
+u {
+	color: #22a2ec;
+}
+
+.first_part {
+	width: 1280px;
+	margin: 0 auto;
+
+}
+.card_item1, .card_item2, .card_item3 {
+	width: 355px;
+	height: 245px;
+	box-sizing: border-box;
+	float: left;
+	padding: 20px;
+	line-height: 1.5; 
+
+} 
+
+.card_item1 {
+	border: 1px solid #d6d6d6;
+	margin-right: 108px;
+	
+}
+.card_item2 {
+	border: 5px solid #d6d6d6;
+}
+.card_item3 {
+	border-radius: 5px;
+	box-shadow: 0 0 40px 0 #d4d4d4;
+	float: right;
+}
+div h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+.card_text {
+	font-size: 15px;
+	color: #272c2f;
+}
+.second_part {
+	width: 1280px;
+	margin: 0 auto;
+}	
+.second-name {
+	font-size: 23px;
+	font-weight: bold;
+	color: #272c2f;
+	margin-top: 55px;
+	margin-bottom: 35px;
+
+}
+.forma {
+	float: left;
+}
+.colorback {
+	width: 770px;
+	height: 300px;
+	float: right;
+	background: #184c6b;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.label {
+	width: 315px;
+	height: 300px;
+	float: left;
+	color: #b8d5e7;
+	padding-left: 40px;
+	padding-top: 45px;
+	
+}
+.img {
+	width: 315px;
+	height: 300px;
+	float: right;
+	padding-top: 85px;
+	padding-right: 45px;
+	color: #b8d5e7;
+
+}
+img {
+	margin-bottom: 15px;
+}
+.name-content {
+	font-size: 21px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.txt, .email, .tel {
+	margin-bottom: 12px;
+	width: 240px;
+	height: 48px;
+	padding-left: 23px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	border: 1px solid #d6d6d6;
+	color: #000;
+}
+.txtarea {
+	width: 360px;
+	height: 120px;
+	padding-left: 23px;
+	padding-top: 5px;
+	box-sizing: border-box;
+	border: 1px solid #d6d6d6;
+	color: #d0d1d1;
+}
+.button {
+	width: 165px;
+	height: 40px;
+	background: #ebce0d;
+	color: #272c2f;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	margin-top: 20px;
+
+}
+.value {
+	margin-top: 20px;
+	color: #84898d;
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+.footer {
+	height: 70px;
+	background: #22a2ec;
+}
