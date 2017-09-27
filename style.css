@@ -79,7 +79,7 @@ u {
 
 .card_item1 {
 	border: 1px solid #d6d6d6;
-	margin-right: 108px;
+	margin-right: 63px;
 	
 }
 .card_item2 {
@@ -166,7 +166,7 @@ img {
 	padding-top: 5px;
 	box-sizing: border-box;
 	border: 1px solid #d6d6d6;
-	color: #d0d1d1;
+	color: #000;
 }
 .button {
 	width: 165px;
@@ -190,4 +190,40 @@ img {
 .footer {
 	height: 70px;
 	background: #22a2ec;
+}
+.rights, .button1, .button2, .back {
+	float: left;
+	color: #fff;
+	margin-top: 25px;
+}
+.hero {
+	float: right;
+	color: #fff;
+	margin-top: 25px;
+	padding-right: 55px;
+}
+.rights {
+	margin-left: 40px;
+	margin-right: 30px;
+}
+.button1, .button2, .back {
+	margin-right: 45px;
+	width: 165px;
+	height:35px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	margin-top: 15px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+}
+.button2 {
+	margin-right: 55px;
+	border-radius: 25px;
+}
+.back {
+	width: 260px;
+	background: #fff;
+	color: #22a2ec;
 }
