@@ -1,0 +1,158 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #000000;
+    background-image: url("img/bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+.button {
+    font: inherit;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #000000;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+.main-navigation {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #000000;
+ }
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+.site-navigation a,
+.user-navigation a {
+    color: #ffffff;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    background-color: #242424;
+}
+.features-list {
+    list-style: none;
+}
+.features-item {
+    text-align: center;
+}
+.features-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.index-columns {
+    color: #000000;
+    background-color: #f8f5f2;
+    background-image: url("img/pattern-light.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.index-columns h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.news-list {
+    list-style: none;
+}
+.news-item time {
+    text-transform: none;
+}
+.gallery-content {
+    background-color: #cccccc;
+    border: 7px solid #ffffff;
+}
+.appointment-item input {
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+.appointment-item input:focus {
+    border-color: #663d15;
+    outline: none;
+}
+.main-footer {
+    color: #ffffff;
+    background-color: #212121;
+    background-image: url("img/pattern-dark.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    text-decoration: none;
+}
+.footer-social {
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
+.social-button {
+    color: #ffffff;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+.modal {
+    color: #000000;
+    background-color: #f8f3f0;
+    background-image: url("img/pattern-light.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.modal h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    font: inherit;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #f9f6f3;
+    border: 2px solid #000000;
+}
+.login-form input:focus {
+    border-color: #663d15;
+    outline: none;
+}
+.login-checkbox:hover,
+.login-checkbox:focus{
+    color: #663d15;
+}
+.restore {
+    color: #000000;
+    text-decoration: underline;
+}
+.restore:hover,
+.restore:focus {
+    text-decoration: none;
+}

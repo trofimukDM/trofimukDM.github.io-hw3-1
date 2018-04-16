@@ -2,14 +2,16 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style1.css">
     <title>Барбершоп "Бородинский"</title>
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
 <body>
     <header class="main-header">
         <nav class="main-navigation">
             <a class="main-header-logo">
-                <img src="img/index-logo.svg" width="368" height="153" alt="Барбершоп Бородинский">
+                <img src="img/index-logo.png" width="368" height="153" alt="Барбершоп Бородинский">
             </a>
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
@@ -44,28 +46,31 @@
                 </li>
             </ul>
         </section>
-        <section class="news">
-            <h2>Новости</h2>
-            <ul class="news-list">
-                <li class="news-item">
-                    <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время</p>
-                    <time datetime="2016-01-11">11 января</time>
-                </li>
-                <li class="news-item">
-                    <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладетель множества титулов и наград пополнил наши стройные ряды</p>
-                    <time datetime="2016-01-18">18 января</time>
-                </li>
-            </ul>
-            <a href="news.html" class="button">Все новости</a>
-        </section>
-        <section class="gallery">
-            <h2>Фотогалерея</h2>
-            <figure class="gallery-content">
-                <a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Интерьер"></a>
-            </figure>
-            <button type="button" class="button gallery-button gallery-button-back">Назад</button>
-            <button type="button" class="button gallery-button gallery-button-next">Вперед</button>
-        </section>
+        <div class="index-columns">
+            <section class="news">
+                <h2>Новости</h2>
+                <ul class="news-list">
+                    <li class="news-item">
+                        <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время</p>
+                        <time datetime="2016-01-11">11 января</time>
+                    </li>
+                    <li class="news-item">
+                        <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладетель множества титулов и наград пополнил наши стройные ряды</p>
+                        <time datetime="2016-01-18">18 января</time>
+                    </li>
+                </ul>
+                <a href="news.html" class="button">Все новости</a>
+            </section>
+            <section class="gallery">
+                <h2>Фотогалерея</h2>
+                <figure class="gallery-content">
+                    <a href="#"><img src="img/studio.png" width="286" height="164" alt="Интерьер"></a>
+                </figure>
+                <button type="button" class="button gallery-button gallery-button-back">Назад</button>
+                <button type="button" class="button gallery-button gallery-button-next">Вперед</button>
+            </section>
+        </div>
+        <div class="index-columns">
         <section class="contacts">
             <h2>Контактная информация</h2>
             <p>
@@ -104,6 +109,7 @@
                 <button class="button" type="submit">Отправить</button>
             </form>
         </section>
+        </div>
     </main>
     <footer class="main-footer">
         <p class="footer-contacts">
@@ -151,7 +157,7 @@
 
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
-        <p><img src="img/map.jpg" width="780" height="560" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19"></p>
+        <p><img src="img/map.png" width="780" height="560" alt="Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19"></p>
         <button class="modal-close" type="button">Закрыть</button>
     </section>
 </body>
