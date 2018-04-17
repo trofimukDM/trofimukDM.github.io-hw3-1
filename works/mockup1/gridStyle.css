@@ -1,0 +1,111 @@
+/*Стили сеток*/
+html, body {
+    min-width: 1122px;
+    min-height: 1750px;
+}
+.main-header {
+    margin-bottom: 75px;
+    /*min-height: 285px; временно*/
+}
+.main-navigation {
+    min-height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+.main-header-logo {
+    width: 368px;
+    height: 153px;
+    order: 2;
+}
+.site-navigation,
+.user-navigation {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*min-height: 70px; temporary*/
+}
+.site-navigation {
+    width: 620px;
+}
+.user-navigation {
+    width: 140px;
+}
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #000000;
+    /*min-height: 70px; temporary*/
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.main-navigation-wrapper .container {
+    display: flex;
+    justify-content: space-between;
+}
+.features {
+    margin-bottom: 80px;
+}
+.features-list {
+    /*min-height: 170px; temporary*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.features-item {
+    min-height: 170px;
+    width: 300px;
+}
+.index-columns {
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.news, .gallery {
+    min-height: 315px;
+}
+.news {
+    width: 380px;
+}
+.gallery {
+    width: 300px;
+}
+.contacts {
+    width: 380px;
+    min-height: 295px; /*temporary*/
+}
+.appointment {
+    width: 300px;
+    /*min-height: 340px; temporary*/
+}
+.main-footer {
+    margin-top: 65px;
+    padding: 60px 0;
+    /*min-height: 180px; temporary*/
+}
+.footer-contacts {
+    margin: 0;
+    min-height: 100px;
+    width: 320px;
+    margin-right: 80px;
+}
+.footer-social {
+    min-height: 100px;
+    width: 145px;
+}
+.footer-copyright {
+    margin: 0;
+    min-height: 100px;
+    width: 150px;
+    margin-left: auto;
+}
+.main-footer .container {
+    display: flex;
+}
