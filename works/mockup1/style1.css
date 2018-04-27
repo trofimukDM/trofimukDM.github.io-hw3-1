@@ -451,3 +451,6 @@ a.login-link::before {
 .modal-map p {
     margin: 0;
 }
+.modal-show {
+    display: block;
+}
